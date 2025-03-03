@@ -1,0 +1,101 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    background-image: url('https://boletomovil.s3.amazonaws.com/paths/caballeros-culiacan-sm.jpeg');
+    background-repeat: repeat-y;
+    background-position: left center, right center;
+    background-size: contain;
+}
+
+header {
+    text-align: center;
+    color: #FFD700;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 4rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #4B002E;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #FFD700;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #FFD700;
+    text-align: center;
+}
+
+.image-container, .about-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container img,
+.about-images img {
+    max-width: 45%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover,
+.about-images img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(135deg, #800020, #4B002E);
+    color: #FFD700;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.sponsor-logo {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: #444;
+    border-radius: 10px;
+    margin: 0 1rem;
+    text-align: center;
+    line-height: 120px;
+    color: #FFD700;
+    font-size: 1.2rem;
+}
+
+.sponsor-logo img {
+    max-width: 100%;
+    border-radius: 5px;
+}
